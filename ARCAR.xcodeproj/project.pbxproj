@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5259D6F5218A6BC00031B966 /* Car-Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 5259D6F4218A6BC00031B966 /* Car-Scene.scn */; };
 		52840CDA2181559800F82ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52840CD92181559800F82ED2 /* AppDelegate.swift */; };
 		52840CDC2181559800F82ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52840CDB2181559800F82ED2 /* ViewController.swift */; };
 		52840CDF2181559800F82ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52840CDD2181559800F82ED2 /* Main.storyboard */; };
@@ -34,17 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52840CD62181559800F82ED2 /* ARFloor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFloor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5259D6F4218A6BC00031B966 /* Car-Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Car-Scene.scn"; sourceTree = "<group>"; };
+		52840CD62181559800F82ED2 /* ARCAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52840CD92181559800F82ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52840CDB2181559800F82ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52840CDE2181559800F82ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52840CE02181559900F82ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52840CE32181559900F82ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52840CE52181559900F82ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52840CEA2181559900F82ED2 /* ARFloorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFloorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52840CEA2181559900F82ED2 /* ARCARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52840CEE2181559900F82ED2 /* ARFloorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFloorTests.swift; sourceTree = "<group>"; };
 		52840CF02181559900F82ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52840CF52181559900F82ED2 /* ARFloorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFloorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52840CF52181559900F82ED2 /* ARCARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52840CF92181559900F82ED2 /* ARFloorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFloorUITests.swift; sourceTree = "<group>"; };
 		52840CFB2181559900F82ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +89,9 @@
 		52840CD72181559800F82ED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52840CD62181559800F82ED2 /* ARFloor.app */,
-				52840CEA2181559900F82ED2 /* ARFloorTests.xctest */,
-				52840CF52181559900F82ED2 /* ARFloorUITests.xctest */,
+				52840CD62181559800F82ED2 /* ARCAR.app */,
+				52840CEA2181559900F82ED2 /* ARCARTests.xctest */,
+				52840CF52181559900F82ED2 /* ARCARUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 				52840CE02181559900F82ED2 /* Assets.xcassets */,
 				52840CE22181559900F82ED2 /* LaunchScreen.storyboard */,
 				52840CE52181559900F82ED2 /* Info.plist */,
+				5259D6F4218A6BC00031B966 /* Car-Scene.scn */,
 			);
 			path = ARFloor;
 			sourceTree = "<group>";
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52840CD52181559800F82ED2 /* ARFloor */ = {
+		52840CD52181559800F82ED2 /* ARCAR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52840CFE2181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARFloor" */;
+			buildConfigurationList = 52840CFE2181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARCAR" */;
 			buildPhases = (
 				52840CD22181559800F82ED2 /* Sources */,
 				52840CD32181559800F82ED2 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = ARFloor;
+			name = ARCAR;
 			productName = ARFloor;
-			productReference = 52840CD62181559800F82ED2 /* ARFloor.app */;
+			productReference = 52840CD62181559800F82ED2 /* ARCAR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52840CE92181559900F82ED2 /* ARFloorTests */ = {
+		52840CE92181559900F82ED2 /* ARCARTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52840D012181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARFloorTests" */;
+			buildConfigurationList = 52840D012181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARCARTests" */;
 			buildPhases = (
 				52840CE62181559900F82ED2 /* Sources */,
 				52840CE72181559900F82ED2 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				52840CEC2181559900F82ED2 /* PBXTargetDependency */,
 			);
-			name = ARFloorTests;
+			name = ARCARTests;
 			productName = ARFloorTests;
-			productReference = 52840CEA2181559900F82ED2 /* ARFloorTests.xctest */;
+			productReference = 52840CEA2181559900F82ED2 /* ARCARTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		52840CF42181559900F82ED2 /* ARFloorUITests */ = {
+		52840CF42181559900F82ED2 /* ARCARUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52840D042181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARFloorUITests" */;
+			buildConfigurationList = 52840D042181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARCARUITests" */;
 			buildPhases = (
 				52840CF12181559900F82ED2 /* Sources */,
 				52840CF22181559900F82ED2 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				52840CF72181559900F82ED2 /* PBXTargetDependency */,
 			);
-			name = ARFloorUITests;
+			name = ARCARUITests;
 			productName = ARFloorUITests;
-			productReference = 52840CF52181559900F82ED2 /* ARFloorUITests.xctest */;
+			productReference = 52840CF52181559900F82ED2 /* ARCARUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52840CD12181559800F82ED2 /* Build configuration list for PBXProject "ARFloor" */;
+			buildConfigurationList = 52840CD12181559800F82ED2 /* Build configuration list for PBXProject "ARCAR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52840CD52181559800F82ED2 /* ARFloor */,
-				52840CE92181559900F82ED2 /* ARFloorTests */,
-				52840CF42181559900F82ED2 /* ARFloorUITests */,
+				52840CD52181559800F82ED2 /* ARCAR */,
+				52840CE92181559900F82ED2 /* ARCARTests */,
+				52840CF42181559900F82ED2 /* ARCARUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5259D6F5218A6BC00031B966 /* Car-Scene.scn in Resources */,
 				52840CE42181559900F82ED2 /* LaunchScreen.storyboard in Resources */,
 				52840CE12181559900F82ED2 /* Assets.xcassets in Resources */,
 				52840CDF2181559800F82ED2 /* Main.storyboard in Resources */,
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		52840CEC2181559900F82ED2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52840CD52181559800F82ED2 /* ARFloor */;
+			target = 52840CD52181559800F82ED2 /* ARCAR */;
 			targetProxy = 52840CEB2181559900F82ED2 /* PBXContainerItemProxy */;
 		};
 		52840CF72181559900F82ED2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52840CD52181559800F82ED2 /* ARFloor */;
+			target = 52840CD52181559800F82ED2 /* ARCAR */;
 			targetProxy = 52840CF62181559900F82ED2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M8WN42A3T;
 				INFOPLIST_FILE = ARFloor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M8WN42A3T;
 				INFOPLIST_FILE = ARFloor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFloor.app/ARFloor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCAR.app/ARCAR";
 			};
 			name = Debug;
 		};
@@ -498,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFloor.app/ARFloor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCAR.app/ARCAR";
 			};
 			name = Release;
 		};
@@ -543,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52840CD12181559800F82ED2 /* Build configuration list for PBXProject "ARFloor" */ = {
+		52840CD12181559800F82ED2 /* Build configuration list for PBXProject "ARCAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52840CFC2181559900F82ED2 /* Debug */,
@@ -552,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52840CFE2181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARFloor" */ = {
+		52840CFE2181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARCAR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52840CFF2181559900F82ED2 /* Debug */,
@@ -561,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52840D012181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARFloorTests" */ = {
+		52840D012181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARCARTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52840D022181559900F82ED2 /* Debug */,
@@ -570,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52840D042181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARFloorUITests" */ = {
+		52840D042181559900F82ED2 /* Build configuration list for PBXNativeTarget "ARCARUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52840D052181559900F82ED2 /* Debug */,
